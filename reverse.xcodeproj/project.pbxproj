@@ -12,6 +12,7 @@
 		6011435021206C7400C4E9C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6011434E21206C7400C4E9C3 /* Main.storyboard */; };
 		6011435221206C7800C4E9C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6011435121206C7800C4E9C3 /* Assets.xcassets */; };
 		6011435521206C7800C4E9C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6011435321206C7800C4E9C3 /* LaunchScreen.storyboard */; };
+		603D03FE213EE82700AF2384 /* CustomUICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603D03FD213EE82700AF2384 /* CustomUICollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		6011435121206C7800C4E9C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6011435421206C7800C4E9C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6011435621206C7800C4E9C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		603D03FD213EE82700AF2384 /* CustomUICollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUICollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		6011434921206C7400C4E9C3 /* reverse */ = {
 			isa = PBXGroup;
 			children = (
+				603D03FD213EE82700AF2384 /* CustomUICollectionViewCell.swift */,
 				6011434A21206C7400C4E9C3 /* AppDelegate.swift */,
 				6011434C21206C7400C4E9C3 /* ViewController.swift */,
 				6011434E21206C7400C4E9C3 /* Main.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				6011434D21206C7400C4E9C3 /* ViewController.swift in Sources */,
 				6011434B21206C7400C4E9C3 /* AppDelegate.swift in Sources */,
+				603D03FE213EE82700AF2384 /* CustomUICollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
