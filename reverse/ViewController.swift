@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         myButton.addTarget(self, action: #selector(ViewController.onMyButtonClick(sender:)), for: UIControlEvents.touchUpInside)
         
         // viewにButtonを追加
-        super.viewDidLoad()
+        self.view.addSubview(myButton)
         
     }
     
